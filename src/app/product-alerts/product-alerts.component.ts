@@ -2,9 +2,9 @@ import { Component, Input } from '@angular/core';
 import { Product } from '../products';
 
 @Component({
-  selector: 'app-porduct-alert',
-  templateUrl: './porduct-alert.component.html',
-  styleUrls: ['./porduct-alert.component.css'],
+  selector: 'app-product-alerts',
+  templateUrl: './product-alerts.component.html',
+  styleUrls: ['./product-alerts.component.css'],
 })
 export class ProductAlertsComponent {
   @Input() product!: Product;
